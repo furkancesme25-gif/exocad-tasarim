@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://exocad-tasarim.vercel.app/sitemap.xml
