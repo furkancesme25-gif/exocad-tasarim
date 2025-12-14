@@ -26,6 +26,10 @@
     th, td { padding: 12px 20px; border: 1px solid #ccc; }
     th { background-color: #6d3bbd; color: white; }
 
+    form { max-width: 500px; margin: auto; display: flex; flex-direction: column; gap: 15px; }
+    input, textarea { padding: 10px; font-size: 16px; }
+    button { padding: 12px; background-color: #6d3bbd; color: white; border: none; font-size: 16px; cursor: pointer; border-radius: 6px; }
+
     footer { background: #eee; padding: 30px 20px; text-align: center; font-size: 14px; }
     footer a { color: #6d3bbd; text-decoration: none; }
   </style>
@@ -40,6 +44,7 @@
     <a href="#portfolio" class="btn-portfolio">Portfolyomu Gör</a>
     <a href="#hakkimda" class="btn-portfolio">Hakkımda</a>
     <a href="#fiyatlar" class="btn-portfolio">Fiyat Listesi</a>
+    <a href="#iletisim" class="btn-portfolio">İletişim</a>
     <a href="https://wa.me/905558889911" class="btn-whatsapp" target="_blank">WhatsApp</a>
   </div>
 </header>
@@ -98,6 +103,17 @@
       </tr>
     </tbody>
   </table>
+</section>
+
+<section id="iletisim">
+  <h2 style="color:#6d3bbd;">İletişim</h2>
+  <p style="font-size: 18px;">Aşağıdaki formu doldurarak benimle iletişime geçebilirsiniz.</p>
+  <form action="https://formsubmit.co/unalkubra48@gmail.com" method="POST">
+    <input type="text" name="name" placeholder="Adınız Soyadınız" required>
+    <input type="email" name="email" placeholder="E-posta adresiniz" required>
+    <textarea name="message" rows="5" placeholder="Mesajınız" required></textarea>
+    <button type="submit">Gönder</button>
+  </form>
 </section>
 
 <footer>
